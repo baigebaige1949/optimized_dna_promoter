@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.ipynb_checkpoints/
+
+# Build / virtual env
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+.env/
+*.log
+
+# Project caches / outputs
+*.bak
+*.bak_*
+*.tmp
+*.cache/
+*.pth
+*.pt
+*.ckpt
+outputs/
+logs/
+
+# Local secrets / keys
+ssh_keys_backup.tgz
+
+# OS
+.DS_Store
