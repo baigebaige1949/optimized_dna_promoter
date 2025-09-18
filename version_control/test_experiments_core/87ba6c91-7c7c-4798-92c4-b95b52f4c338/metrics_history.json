@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-08-12T22:12:03.615973",
+    "step": null,
+    "epoch": 1,
+    "metrics": {
+      "loss": 0.5,
+      "accuracy": 0.85
+    }
+  }
+]

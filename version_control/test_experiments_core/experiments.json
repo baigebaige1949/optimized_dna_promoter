@@ -1,0 +1,35 @@
+{
+  "87ba6c91-7c7c-4798-92c4-b95b52f4c338": {
+    "experiment_id": "87ba6c91-7c7c-4798-92c4-b95b52f4c338",
+    "name": "核心逻辑测试",
+    "description": "测试描述",
+    "tags": [
+      "test"
+    ],
+    "start_time": "2025-08-12T22:12:03.615591",
+    "end_time": "2025-08-12T22:12:03.616485",
+    "status": "completed",
+    "hyperparameters": {
+      "lr": 0.001,
+      "batch_size": 32
+    },
+    "metrics": {
+      "loss": 0.5,
+      "accuracy": 0.85
+    },
+    "artifacts": {},
+    "logs": [],
+    "metric_history": [
+      {
+        "timestamp": "2025-08-12T22:12:03.615973",
+        "step": null,
+        "epoch": 1,
+        "metrics": {
+          "loss": 0.5,
+          "accuracy": 0.85
+        }
+      }
+    ],
+    "duration_seconds": 0.000894
+  }
+}

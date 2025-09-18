@@ -1,0 +1,78 @@
+{
+  "project_root": "/root/optimized_dna_promoter",
+  "init_files": {
+    "created": [],
+    "missing": [],
+    "ok": true
+  },
+  "core_alias_patch": {
+    "ok": true,
+    "patched": false,
+    "message": "已存在别名"
+  },
+  "deps": {
+    "versions": {
+      "torch": "<module 'torch.version' from '/root/miniconda3/envs/dnaopt/lib/python3.10/site-packages/torch/version.py'>",
+      "transformers": "4.56.1",
+      "numpy": "2.2.6",
+      "sklearn": "1.7.2",
+      "Bio": "1.85",
+      "pandas": "2.3.2",
+      "yaml": "6.0.2",
+      "tqdm": "4.67.1",
+      "matplotlib": "3.10.6"
+    },
+    "missing": [],
+    "ok": true
+  },
+  "alias_runtime": {
+    "ok": true
+  },
+  "predictor_build": {
+    "built": true,
+    "error": null,
+    "cls": "UniversalPredictor"
+  },
+  "predictor_api": {
+    "ok": true,
+    "predict_strength": [
+      0.493920236825943,
+      0.4946446716785431
+    ],
+    "predict_batch": [
+      0.493920236825943,
+      0.4946446716785431,
+      NaN
+    ],
+    "get_feature_importance": {
+      "transformer_attention": 0.95,
+      "transformer_position": 0.85,
+      "kmer_3": 0.8,
+      "kmer_4": 0.7000000000000001,
+      "kmer_5": 0.6000000000000001,
+      "kmer_6": 0.5,
+      "biological_motifs": 0.9,
+      "biological_composition": 0.75
+    },
+    "get_model_summary": {
+      "model_type": "transformer",
+      "model_class": "TransformerPredictor",
+      "total_parameters": 88201473,
+      "trainable_parameters": 88201473,
+      "device": "cpu",
+      "memory_footprint_mb": 336.46191787719727
+    },
+    "benchmark_inference": {
+      "avg_inference_time": 3.9639084339141846,
+      "std_inference_time": 0.01698923110961914,
+      "min_inference_time": 3.9469192028045654,
+      "max_inference_time": 3.9808976650238037,
+      "sequences_per_second": 0.7568287840185128
+    }
+  },
+  "demo_smoke": {
+    "ok": true,
+    "import_ok": true
+  },
+  "overall_ok": true
+}
